@@ -1,5 +1,4 @@
-﻿using System;
-using System.Windows;
+﻿using System.Windows;
 
 namespace GoogleURLShortenerDesktopGUI {
   public partial class MainWindow : Window {
