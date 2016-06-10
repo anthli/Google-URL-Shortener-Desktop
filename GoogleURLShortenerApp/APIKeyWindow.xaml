@@ -1,0 +1,28 @@
+﻿<Window x:Class="GoogleURLShortenerApp.APIKeyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoogleURLShortenerApp"
+        mc:Ignorable="d"
+        Title="Google API Key" Height="200" Width="500">
+  <Grid>
+    <StackPanel HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+      <TextBlock Text="Paste the Google API Key you want to use:"
+                 FontSize="18"></TextBlock>
+
+      <TextBox Name="apiKey"
+               Text=""
+               Width="400"
+               Margin="0, 10, 0, 10"
+               FontSize="18"></TextBox>
+
+      <Button Content="Submit"
+              FontSize="16"
+              Height="30"
+              Width="80"
+              Click="SubmitAPIKey"></Button>
+    </StackPanel>
+  </Grid>
+</Window>

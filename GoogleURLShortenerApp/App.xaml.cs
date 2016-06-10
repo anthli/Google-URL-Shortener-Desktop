@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.IO;
 using System.Windows;
 
 namespace GoogleURLShortenerApp {
-  /// <summary>
-  /// Interaction logic for App.xaml
-  /// </summary>
   public partial class App : Application {
+    void AppStartup(object sender, StartupEventArgs e) {
+      // The apikey file containing the Google API Key needs to be in the same
+      // directory as the app before proceeding
+      if (File.Exists("apikey")) {
+        new MainWindow().Show();
+      }
+      else {
+        new APIKeyWindow().Show();
+      }
+    }
   }
 }

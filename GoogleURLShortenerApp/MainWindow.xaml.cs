@@ -1,12 +1,16 @@
 ﻿using System.Windows;
 
-namespace GoogleURLShortenerDesktopGUI {
+namespace GoogleURLShortenerApp {
   public partial class MainWindow : Window {
     // Show the short URL in the window after the long URL has been converted
     private void Shorten_URL(object sender, RoutedEventArgs e) {
       shortURL.Text = URLShortener.ShortenURL(longURL.Text);
-      copy.Visibility = System.Windows.Visibility.Visible;
-      clear.Visibility = System.Windows.Visibility.Visible;
+
+      // The short URL was retrieved successfully
+      if (shortURL.Text.Length > 0) {
+        copy.Visibility = System.Windows.Visibility.Visible;
+        clear.Visibility = System.Windows.Visibility.Visible;
+      }
     }
 
     // Copies the short URL to the clipboard for easy of use
