@@ -19,7 +19,6 @@ paste the URL.
 ### Usage
 
 * Clone the repo to a directory of your choice
-
 * Open ```GoogleURLShortenerApp.sln``` and Build (Ctrl + Shift + B)
 * Include ```apiKey.json``` in the directory of the .exe itself
 * Run ```GoogleURLShortenerApp.exe```
