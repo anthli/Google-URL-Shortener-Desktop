@@ -1,6 +1,7 @@
 # Google URL Shortener App
 
-A Google URL Shortener desktop application for Windows written in C# and WPF.
+My first attempt at learning C# by developing a Google URL Shortener desktop
+application using WPF.
 
 I developed this mostly out of laziness because I found that the process of
 going to [goo.gl](https://goo.gl/) and shortening a URL took too long (it
