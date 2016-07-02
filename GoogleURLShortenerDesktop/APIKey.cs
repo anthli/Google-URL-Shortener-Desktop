@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Windows;
 
-namespace GoogleURLShortenerApp {
+namespace GoogleURLShortenerDesktop {
   public partial class MainWindow {
     class APIKey {
       private static string apiKey;

@@ -1,10 +1,9 @@
 ﻿using Google;
 using Google.Apis.Services;
 using Google.Apis.Urlshortener.v1;
-using System.Linq;
 using System.Windows;
 
-namespace GoogleURLShortenerApp {
+namespace GoogleURLShortenerDesktop {
   public partial class MainWindow {
     class URLShortener {
       private static UrlshortenerService service;
@@ -16,9 +15,10 @@ namespace GoogleURLShortenerApp {
         // Parse the Google API Key from apiKey.json
         var apiKey = APIKey.GetAPIKey("apikey");
 
-        // UrlshortenerService with the parse API Key
+        // UrlshortenerService with the parsed API Key
         service = new UrlshortenerService(new BaseClientService.Initializer() {
-          ApiKey = apiKey
+          ApiKey = apiKey,
+          ApplicationName = "Google URL Shortener Desktop"
         });
 
         // Request containing the longURL

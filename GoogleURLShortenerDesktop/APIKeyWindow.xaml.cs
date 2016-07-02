@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Windows;
 
-namespace GoogleURLShortenerApp {
+namespace GoogleURLShortenerDesktop {
   public partial class APIKeyWindow : Window {
 
     // Write the user's Google API key to a local file

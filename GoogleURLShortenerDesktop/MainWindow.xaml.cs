@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace GoogleURLShortenerApp {
+namespace GoogleURLShortenerDesktop {
   public partial class MainWindow : Window {
     // Show the short URL in the window after the long URL has been converted
     private void Shorten_URL(object sender, RoutedEventArgs e) {

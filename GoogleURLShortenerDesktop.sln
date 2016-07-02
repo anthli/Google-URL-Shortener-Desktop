@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleURLShortenerApp", "GoogleURLShortenerApp\GoogleURLShortenerApp.csproj", "{458F58EF-24E3-4DA2-923D-4F2E9ADBD76D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleURLShortenerDesktop", "GoogleURLShortenerDesktop\GoogleURLShortenerDesktop.csproj", "{458F58EF-24E3-4DA2-923D-4F2E9ADBD76D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
